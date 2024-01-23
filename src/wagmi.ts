@@ -12,9 +12,9 @@ export const config = createConfig({
     mock({
       accounts: ["0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"],
       features: {
-        signTypedDataError: new Error("Random Error"),
-        signMessageError: new Error("Random Message Error"),
-        sendTransactionError: new Error("Random Transaction Error"),
+        // signTypedDataError: new Error("Random Error"),
+        // signMessageError: new Error("Random Message Error"),
+        // sendTransactionError: new Error("Random Transaction Error"),
       },
     }),
   ],

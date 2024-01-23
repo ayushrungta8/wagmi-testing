@@ -123,6 +123,7 @@ export function mock(parameters: MockParameters) {
       const url = chain.rpcUrls.default.http[0]!;
 
       const request: EIP1193RequestFn = async ({ method, params }) => {
+        console.log("request", { method, params });
         // eth methods
         if (method === "eth_chainId") return numberToHex(connectedChainId);
         if (method === "eth_requestAccounts") return parameters.accounts;
