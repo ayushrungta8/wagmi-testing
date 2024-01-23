@@ -1,0 +1,34 @@
+{
+  "name": "wagmi-testing",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chorus-one/opus-pool": "^1.0.1",
+    "@tanstack/react-query": "5.0.5",
+    "hardhat": "^2.19.4",
+    "next": "13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "viem": "2.0.0",
+    "wagmi": "2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.2.0",
+    "supports-color": "^9.4.0",
+    "typescript": "^5.0.4",
+    "utf-8-validate": "^6.0.3"
+  }
+}
